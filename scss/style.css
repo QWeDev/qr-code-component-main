@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --color-slate-900: hsl(218, 44%, 22%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/outfit-v14-latin-regular.woff2") format("woff2");
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/outfit-v14-latin-700.woff2") format("woff2");
+}
+h1, h2, h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
